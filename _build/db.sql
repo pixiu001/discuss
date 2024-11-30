@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS "notifies" (
 
 
 CREATE TABLE IF NOT EXISTS "regcodes" (
-    "body" 8888 NOT NULL,
+    "body" TEXT NOT NULL,
     "isredeemed" INTEGER NOT NULL,
     "redeemedto" TEXT
 );
